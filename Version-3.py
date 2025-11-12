@@ -15,3 +15,6 @@ while guess != magic_number and counter > 0:
     break
   else:
     guess = int(input("Guess a number beween1 and 10"))
+
+else:
+  print("You win!")
